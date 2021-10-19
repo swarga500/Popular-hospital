@@ -1,25 +1,41 @@
 [
     {
         "id":1,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg",
-        "description":"seesion sare sjs s s  sisj sfs s"},
+        "Name":"Cityscan",
+        "Price": 3400,
+        "img":"https://i.ibb.co/9yFYHJQ/cityscan.jpg",
+        "description":"Full body check up with cityscan machine"
+    },
     {
         "id":2,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg",
-        "description":"seesion sare sjs s s  sisj sfs s"
+        "Name":"Urine taste",
+        "Price": 1200,
+        "img":"https://i.ibb.co/L0vLMw9/urine-teste.jpg",
+        "description":"urine color teste, urine bacteria teste"
     },
-    {"id":3,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg","description":"seesion sare sjs s s  sisj sfs s"},
-    {"id":4,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg","description":"seesion sare sjs s s  sisj sfs s"},
-    {"id":5,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg","description":"seesion sare sjs s s  sisj sfs s"},
-    {"id":6,
-        "Name":"operation",
-        "img":"https://i.ibb.co/xgpxncp/images-9.jpg","description":"seesion sare sjs s s  sisj sfs s"}
+    {
+        "id":3,
+        "Name":"Altrasonography",
+        "Price": 1700,
+        "img":"https://i.ibb.co/Qjw2KWd/altrasonograpghy.jpg",
+        "description":"belly all teste with digital machine"},
+    {
+        "id":4,
+        "Name":"X-ray",
+        "Price": 1500,
+        "img":"https://i.ibb.co/GM1rY5h/xray.jpg",
+        "description":"Bone exray with ultra modern machine"
+    },
+    {
+        "id":5,
+        "Name":"Diabetis Taste",
+        "Price": 400,
+        "img":"https://i.ibb.co/n3jKg6T/Diabetis.jpg",
+        "description":"Blood sugar taste"},
+    {
+        "id":6,
+        "Name":"Covid Vaccine",
+        "Price": 1240,
+        "img":"https://i.ibb.co/8M724YX/vaccine.jpg",
+        "description":" sinoPhorm"}
 ]

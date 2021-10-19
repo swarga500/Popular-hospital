@@ -9,6 +9,9 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import AuthProvider from './context/AuthProvider';
+import PrivetRoute from './components/PrivetRoute/PrivetRoute';
+import Register from './components/Register/Register';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -25,9 +28,9 @@ function App() {
            <Route exact path="/home">
              <Home></Home>
            </Route>
-           <Route path="/buy/:serviceId">
+           <PrivetRoute path="/buy/:serviceId">
              <Buy></Buy>
-           </Route>
+           </PrivetRoute>
            <Route path="/login">
              <Login></Login>
            </Route>
@@ -37,8 +40,14 @@ function App() {
            <Route path="/contact">
              <Contact></Contact>
            </Route>
+           <Route path="/register">
+             <Register></Register>
+           </Route>
            <Route path="/services">
              <Services></Services>
+           </Route>
+           <Route path="*">
+             <NotFound></NotFound>
            </Route>
          </Switch>
       </BrowserRouter>
