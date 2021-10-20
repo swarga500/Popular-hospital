@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className="w-50 mx-auto" id="login">
             <form onSubmit={logIn}>
-             <h3 className="mb-3 text-success">Please Login</h3>
+             <h3 className="my-3 text-success">Please Login</h3>
                 <div className="row mb-3">
                     <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
                     <div className="col-sm-10">
