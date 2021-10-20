@@ -18,11 +18,11 @@ const useFirebase =() =>{
 
     // email & password login
     
-    const logIn = (email,password) =>{
+    const logIn = (e) =>{
+        e.preventDefault()
         signInWithEmailAndPassword(auth,email,password)
         .then(result =>{
             const user = result.user;
-            setUser(user)
             console.log(user)
         })
         .catch((error) => {

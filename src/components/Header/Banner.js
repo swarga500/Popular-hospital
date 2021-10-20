@@ -1,8 +1,9 @@
 import React from 'react';
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className="w-75 mx-auto mb-3 banner-height">
+        <div className="w-75 mx-auto my-4 banner-height">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

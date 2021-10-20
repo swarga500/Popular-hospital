@@ -8,25 +8,25 @@ const Header = () => {
     const {user, logOut} = useAuth()
     return (
         <>
-        <nav className="navbar mb-3 navbar-expand-lg navbar-light bg-success sticky-top">
+        <nav className="navbar mb-5 navbar-expand-lg navbar-light bg-success fixed-top">
   <div className="container-fluid">
-    <HashLink className="navbar-brand text-warning" to="/">Popular</HashLink>
+    <HashLink className="navbar-brand text-warning" to="/home">Popular Hospital</HashLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <HashLink className="nav-link text-white active" aria-current="page" to="/home">Home</HashLink>
+          <HashLink className="nav-link text-white active" aria-current="page" to="/home#home">Home</HashLink>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link text-white" to="/services">Services</HashLink>
+          <HashLink className="nav-link text-white" to="/home#services">Services</HashLink>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link text-white" to="/about">About</HashLink>
+          <HashLink className="nav-link text-white" to="/home#about">About</HashLink>
         </li>
         <li className="nav-item">
-          <HashLink className="nav-link text-white" to="/contact">Contact</HashLink>
+          <HashLink className="nav-link text-white" to="/home#contact">Contact</HashLink>
         </li>
         <li className="nav-item">
           <HashLink className="nav-link text-white" to="/register">Register</HashLink>

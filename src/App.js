@@ -1,13 +1,10 @@
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Services from './components/Services/Services';
 import Home from './components/Home/Home';
 import Buy from './components/Buy/Buy';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
 import AuthProvider from './context/AuthProvider';
 import PrivetRoute from './components/PrivetRoute/PrivetRoute';
 import Register from './components/Register/Register';
@@ -34,17 +31,8 @@ function App() {
            <Route path="/login">
              <Login></Login>
            </Route>
-           <Route path="/about">
-             <About></About>
-           </Route>
-           <Route path="/contact">
-             <Contact></Contact>
-           </Route>
            <Route path="/register">
              <Register></Register>
-           </Route>
-           <Route path="/services">
-             <Services></Services>
            </Route>
            <Route path="*">
              <NotFound></NotFound>
