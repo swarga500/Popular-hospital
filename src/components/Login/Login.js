@@ -37,7 +37,10 @@ const Login = () => {
                 <div className="row mb-3 text-danger ms-5">
                     {error}</div>
                 <button type="submit" className="btn btn-warning">Login</button>
+                
          </form>
+         <p>Or</p>
+
             <button onClick={signInUsingGoogle} className="btn btn-warning mt-2">Google signIn</button>
         </div>
     );

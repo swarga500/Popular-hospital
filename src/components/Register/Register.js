@@ -34,9 +34,9 @@ const Register = () => {
                 </div>
                 <div className="row mb-3 text-danger ms-5">
                     {error}</div>
-                <button type="submit" className="btn btn-success">Register</button>
+                <button type="submit" className="btn btn-warning">Register</button>
                 <p>or</p>
-                <button onClick={signInUsingGoogle} className="btn btn-success mt-2">Google signIn</button>
+                <button onClick={signInUsingGoogle} className="btn btn-warning mt-2">Google signIn</button>
          </form>
         </div>
     );
