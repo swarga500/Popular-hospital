@@ -5,8 +5,8 @@ import useAuth from '../../hooks/useAuth';
 const PrivetRoute = ({ children, ...rest }) => {
     const {user, isLoading} = useAuth();
     if(isLoading){
-        return <div class="spinner-border text-warning" role="status">
-        <span class="visually-hidden">Loading...</span>
+        return <div className="spinner-border text-warning" role="status">
+        <span className="visually-hidden">Loading...</span>
       </div>
     }
     

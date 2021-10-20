@@ -41,7 +41,7 @@ const Header = () => {
       </ul>
       <span className="navbar-text">
         signin as: <a className="text-white" href="#login">{
-            user?.displayName
+            user?.email
         }</a>
       </span>
     </div>

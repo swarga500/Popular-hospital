@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
+    
     const {signInUsingGoogle, logIn,error,handleEmail,handlePassword} = useAuth();
     return (
         <div className="w-50 mx-auto" id="login">
